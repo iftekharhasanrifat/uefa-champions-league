@@ -1,0 +1,17 @@
+.team{
+    margin: 20px;
+    padding: 20px;
+    text-align:center;
+    background-color : rgb(17, 127, 163);
+    transition:1.5s;
+    color :white;
+    width: 400px;
+    height:320px;
+    border-radius: 20px;
+}
+.team:hover{
+    background-color:rgba(17, 127, 163,0.5);
+}
+.team img{
+    width:150px;
+}

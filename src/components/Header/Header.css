@@ -1,0 +1,21 @@
+.top-banner{
+    text-align: center;
+    background-image: url('../../Photo/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: 100% 250px;
+    height: 250px;
+}
+.top-banner img{
+    width: 240px;
+    padding:23px;
+}
+.top-banner h1{
+    padding:100px;
+    color: white;
+}
+.logo{
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.4);
+}

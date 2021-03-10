@@ -1,0 +1,20 @@
+.team-detail{
+    background-color:darkmagenta;
+    color: white;
+    border-radius:15px;
+}
+.team-detail .icon{
+    width: 25px;
+    height: 25px;
+}
+.team-detail-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-info{
+    background-color:#0a272b;
+}
+.team-info .team-description{
+    color:white;
+}
