@@ -7,9 +7,9 @@ const Footer = (props) => {
     const {strTwitter,strFacebook,strYoutube} = props.team;
     return (
         <div className="footer">
-            <a target="_blank" href={`https://${strTwitter}`}><img src={twitterLogo} alt=""/></a>
-            <a target="_blank" href={`https://${strFacebook}`}><img src={facebookLogo} alt=""/></a>
-            <a target="_blank"href={`https://${strYoutube}`}><img src={youtubeLogo} alt=""/></a>
+            <a href={`https://${strTwitter}`}><img src={twitterLogo} alt=""/></a>
+            <a href={`https://${strFacebook}`}><img src={facebookLogo} alt=""/></a>
+            <a href={`https://${strYoutube}`}><img src={youtubeLogo} alt=""/></a>
         </div>
     );
 };
