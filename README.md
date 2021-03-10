@@ -12,3 +12,5 @@ This project has saome features :
 2)If you click the explore button you can get the details of teams.
 3)You can navigate to their social media by the social media icons in the footer.
 
+# Live Site
+https://uefa-champions-league-react.netlify.app/
