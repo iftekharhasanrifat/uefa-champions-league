@@ -6,7 +6,7 @@ const Header = (props) => {
         <div className='top-banner'>
             <div className='logo'>
                 {
-                    teamLogo===undefined?<h1>UEFA CHAMPIONS LEAGUE</h1>:<img src={teamLogo} alt="" />
+                    teamLogo===''?<h1>UEFA CHAMPIONS LEAGUE</h1>:<img src={teamLogo} alt="" />
                 }
             </div>
         </div>

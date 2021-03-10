@@ -12,7 +12,7 @@ const Home = () => {
     }, [])
     return (
         <div>
-            <Header></Header>
+            <Header logo=''></Header>
             <div className="team-container">
                 {
                     teams.map(team => <Team key={team.idTeam} team={team}></Team>)
