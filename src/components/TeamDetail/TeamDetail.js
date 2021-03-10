@@ -18,7 +18,7 @@ const TeamDetail = () => {
             .then(res => res.json())
             .then(data => setTeam(data.teams[0]))
     }, [teamId])
-    const {strTeamBadge,strTeam,intFormedYear,strCountry,strSport,strGender,strDescriptionEN} =team
+    const {strTeamBadge,strTeam,intFormedYear,strCountry,strSport,strGender,strDescriptionEN,strStadiumDescription} =team
     return (
         <div>
             <Header logo={strTeamBadge}></Header>
@@ -51,9 +51,16 @@ const TeamDetail = () => {
                     </div>
                 </div>
                 <div className="description-container d-flex justify-content-center align-items-center">
-                    <div className="row p-1 container d-flex justify-content-center align-items-center">
+                    <div className="row p-1 container ">
                         <div className="col-md-12">
                             <p className="team-description text-justify">{strDescriptionEN}</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="description-container d-flex justify-content-center align-items-center">
+                    <div className="row p-1 container ">
+                        <div className="col-md-12">
+                            <p className="stadium-description text-justify">{strStadiumDescription}</p>
                         </div>
                     </div>
                 </div>

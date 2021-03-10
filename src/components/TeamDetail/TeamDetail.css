@@ -15,6 +15,6 @@
 .team-info{
     background-color:#0a272b;
 }
-.team-info .team-description{
+.team-info .team-description,.stadium-description{
     color:white;
 }
