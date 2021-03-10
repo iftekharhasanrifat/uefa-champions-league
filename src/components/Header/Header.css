@@ -11,7 +11,8 @@
     width: 240px;
     padding:23px;
 }
-.top-banner h1{
+.top-banner h2{
+    text-align: center;
     padding:100px;
     color: white;
 }
