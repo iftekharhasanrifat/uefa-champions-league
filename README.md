@@ -8,9 +8,11 @@ You can know about your favorite teams.
 
 # features
 This project has saome features :
-1)It will show the teams of uefa champions league in home page.
-2)If you click the explore button you can get the details of teams.
-3)You can navigate to their social media by the social media icons in the footer.
+1)Used React Router in this project for routing.
+2)Used Material Ui,Bootstrap and CSS3 for design.
+3)It will show the teams of uefa champions league in home page.
+4)If you click the explore button you can get the details of teams.
+5)You can navigate to their social media by the social media icons in the footer.
 
 # Live Site
 https://uefa-champions-league-react.netlify.app/
