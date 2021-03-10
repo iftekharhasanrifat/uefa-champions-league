@@ -15,8 +15,5 @@ This project has saome features :
 5)You can navigate to their social media by the social media icons in the footer.
 
 # Live Site
-<<<<<<< HEAD
 [uefa-champions-league-react](https://uefa-champions-league-react.netlify.app/)
-=======
 
->>>>>>> 5ef9aae91e58f60a9331a4c4a2dd4cb561a05ea8
