@@ -1,10 +1,8 @@
 .top-banner{
     text-align: center;
-    background-image: url('../../Photo/banner.jpg');
-    background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
-    background-size: 100% 250px;
+    background-size:100% 250px;
     height: 250px;
 }
 .top-banner img{

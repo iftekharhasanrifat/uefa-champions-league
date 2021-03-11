@@ -19,12 +19,12 @@ const TeamDetail = () => {
             .then(data => setTeam(data.teams[0]))
             .catch(error => console.log(error))
     }, [teamId])
-    const { strTeamBadge, strTeam, intFormedYear, strCountry, strSport, strGender, strDescriptionEN, strStadiumDescription } = team;
+    const { strTeamBadge, strTeam, intFormedYear, strCountry, strSport, strGender,strStadiumThumb, strDescriptionEN, strStadiumDescription } = team;
     return (
         <div>
             {team === 'I'||team.length=== 0? <h1 className="text-danger text-center m-5">Data Not Found</h1>
                 : <div>
-                    <Header logo={strTeamBadge}></Header>
+                    <Header hasLogo={true} hasBanner={true} dynamicBanner={strStadiumThumb} logo={strTeamBadge}></Header>
                     <div className="team-info">
                         <div className="team-detail-container">
                             <div className='row m-5 container d-flex justify-content-center align-items-center team-detail'>

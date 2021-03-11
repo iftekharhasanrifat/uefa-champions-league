@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../Header/Header';
 import Team from '../Team/Team';
+import banner from '../../Photo/banner.jpg'
 import './Home.css'
 const Home = () => {
     const [teams, setTeams] = useState([]);
@@ -12,7 +13,7 @@ const Home = () => {
     }, [])
     return (
         <div>
-            <Header logo=''></Header>
+            <Header hasBanner={false} banner={banner}></Header>
             <div className="team-container">
                 {
                     teams.map(team => <Team key={team.idTeam} team={team}></Team>)
