@@ -20,7 +20,6 @@ const TeamDetail = () => {
             .catch(error => console.log(error))
     }, [teamId])
     const { strTeamBadge, strTeam, intFormedYear, strCountry, strSport, strGender, strDescriptionEN, strStadiumDescription } = team;
-    console.log(team);
     return (
         <div>
             {team === 'I'||team.length=== 0? <h1 className="text-danger text-center m-5">Data Not Found</h1>
