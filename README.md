@@ -1,4 +1,4 @@
-# UEFA CHAMPIONS LEAGUE REACT
+# UEFA CHAMPIONS LEAGUE
 
 [uefa-champions-league-react](https://uefa-champions-league-react.netlify.app/)
 
