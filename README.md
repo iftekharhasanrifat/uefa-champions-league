@@ -14,4 +14,4 @@ This project has saome features :
 5)You can navigate to their social media by the social media icons in the footer.
 
 # Framework/library
-React, React Router,React Bootstrap, Material UI, Bootstrap.
+React, React Router, React Bootstrap, Material UI, Bootstrap.
