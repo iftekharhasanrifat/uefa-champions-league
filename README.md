@@ -19,3 +19,8 @@ This Project will let you know about the teams of UEFA Champions League .It is p
 - React Bootstrap 
 - Material UI 
 - Bootstrap
+
+# UI Screenshot
+
+<img src="https://i.ibb.co/dtVkcKb/screencapture-uefa-champions-league-react-netlify-app-2021-05-01-22-10-46.png" alt="screencapture-uefa-champions-league-react-netlify-app-2021-05-01-22-10-46" border="0">
+<img src="https://i.ibb.co/frwFtHV/screencapture-uefa-champions-league-react-netlify-app-team-133739-2021-05-01-22-11-11.png" alt="screencapture-uefa-champions-league-react-netlify-app-team-133739-2021-05-01-22-11-11" border="0">
