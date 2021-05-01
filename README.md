@@ -7,12 +7,15 @@
 This Project will let you know about the teams of UEFA Champions League .It is pretty fun. You can know about your favorite teams. If you click the explore button you can get the details of teams. You can navigate to their social media by the social media icons in the footer.
 
 # Features
-This project has saome features :
-1)Used React Router in this project for routing.
-2)Used Material Ui,Bootstrap and CSS3 for design.
-3)It will show the teams of uefa champions league in home page.
-4)If you click the explore button you can get the details of teams.
-5)You can navigate to their social media by the social media icons in the footer.
+- Used React Router in this project for routing.
+- Used Material Ui,Bootstrap and CSS3 for design.
+- It will show the teams of uefa champions league in home page.
+- If you click the explore button you can get the details of teams.
+- You can navigate to their social media by the social media icons in the footer.
 
 # Framework/library
-React JS, React Router, React Bootstrap, Material UI, Bootstrap.
+- React JS
+- React Router
+- React Bootstrap 
+- Material UI 
+- Bootstrap
